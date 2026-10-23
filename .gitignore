@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.env
+
+# Data and local databases
+*.db
+*.sqlite
+*.sqlite3
+chroma_db/
+data/processed/
+data/private/
+
+# Editors / OS
+.vscode/
+.DS_Store
+Thumbs.db
